@@ -1,0 +1,267 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background: #007BFF;
+  border-radius: 5px;
+  min-width: 140px;
+  height: 40px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.border_button {
+  background: #28a745;
+  border: 1px solid #218838;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.red_button {
+  background: #dc3545;
+  border: 1px solid #c82333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  padding-top: 70px;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  background: #343a40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px; 
+}
+
+.navLinks > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logos {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.bookWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #ced4da;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookWrapper > h1 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.bookWrapper > h2 {
+  font-size: 18px;
+  color: #555;
+}
+
+.bookWrapper > img {
+  width: 200px;
+  max-height: 300px;
+  border-radius: 8px;
+}
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.searchBar > input {
+  width: 350px;
+  border: 2px solid #007BFF;
+  border-radius: 8px;
+  height: 35px;
+  padding: 5px 10px;
+}
+
+.singleBookWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid #ced4da;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.singleBookWrapper > h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.singleBookWrapper > h2 {
+  font-size: 20px;
+  color: #555;
+}
+
+.singleBookWrapper > img {
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 8px;
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+.formContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.formContentWrapper > a {
+  color: #007BFF;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid #ced4da;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.loginError {
+  color: #dc3545;
+  font-size: 18px;
+}
+
+
+.accountWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.accountBox {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid #ced4da;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background: #e9ecef;
+}
+
+.accountBox > ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+.userBooks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.userBooksWrapper {
+  border: 1px solid #007BFF;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.accountButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
